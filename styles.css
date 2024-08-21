@@ -1,1 +1,37 @@
 /* your code */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Header Styles */
+th {
+    font-weight: bold;
+}
+
+/* Add some spacing for the table title */
+h1 {
+    text-align: center;
+    color: #333;
+}
